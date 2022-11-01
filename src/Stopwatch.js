@@ -10,8 +10,7 @@ const defaultState = {
 let startDuration = null;
 
 function getZeroAppendedString(num) {
-  let returnValue = ('0' + num).slice(-2);
-  return returnValue;
+  return ('0' + num).slice(-2);
 }
 function calculateTime() {
   let millisecondsPassed = new Date().getTime() - startDuration;
